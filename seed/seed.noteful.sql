@@ -2,7 +2,7 @@ BEGIN;
 TRUNCATE noteful_folders, noteful_notes RESTART IDENTITY;
 
 INSERT INTO noteful_folders 
-(id, folder_name)
+(folder_name)
 VALUES
 ('Folder 1'),
 ('Folder 2'),

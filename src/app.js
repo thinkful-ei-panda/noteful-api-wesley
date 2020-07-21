@@ -22,7 +22,7 @@ app.get('/', (req,res) => {
   res.status(200).send('Hello Boilerplate');
 });
 
-// app.use('/notes',notesRouter);
+app.use('/notes',notesRouter);
 
 app.use('/folders',foldersRouter);
 

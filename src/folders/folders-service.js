@@ -21,9 +21,9 @@ const FoldersService = {
       .then(rows => rows[0]);
   },
 
-  renameFolder(db,id,updateName){
+  renameFolder(db,id,newFolderFields){
     return db('noteful_folders')
-      .update(updateName)
+      .update(newFolderFields)
       .where({ id });
   },
 
