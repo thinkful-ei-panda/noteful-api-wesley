@@ -1,3 +1,7 @@
+Noteful API by Wesley Rou
+
+Made with Express Boilerplate
+
 # Express Boilerplate!
 
 This is a boilerplate project used for starting new projects!
